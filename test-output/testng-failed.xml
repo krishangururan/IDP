@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Portal Automation Testing]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.qa.util.WebEventListener"/>
+  </listeners>
+  <test name="R03(failed)">
+    <classes>
+      <class name="com.qa.tests.R03">
+        <methods>
+          <include name="shudown"/>
+          <include name="startUp"/>
+          <include name="TC_375423_375424" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- com.qa.tests.R03 -->
+    </classes>
+  </test> <!-- R03(failed) -->
+</suite> <!-- Failed suite [Portal Automation Testing] -->
